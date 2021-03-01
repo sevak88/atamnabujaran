@@ -3152,10 +3152,13 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   $(window).scroll(navbarCollapse);
   var hours = $('#calendar').data("hours");
   $('#calendar').evoCalendar({
+    format: "yyyy-mm-dd",
     language: 'hy',
     calendarEvents: hours
   }).on("selectEvent", function (event, activeEvent) {
     console.log(activeEvent);
+    $('#date').val(activeEvent.date + " " + activeEvent.name);
+    $("#exampleModalCenter").modal('show');
   });
 })(jQuery); // End of use strict
 

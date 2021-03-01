@@ -18,7 +18,8 @@ class CreateRecordsTable extends Migration
             $table->string("first_name")->nullable();
             $table->string("last_name")->nullable();
             $table->string("comment")->nullable();
-            $table->date("date")->nullable();
+            $table->dateTime("date")->nullable();
+            $table->string("phone")->nullable();
             $table->timestamps();
         });
     }

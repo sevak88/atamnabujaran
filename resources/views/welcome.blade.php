@@ -7,7 +7,7 @@
         <div class="mx-auto text-center">
             <h1 class="mx-auto my-0 text-uppercase">Ատամնաբուժարան</h1>
             <h2 class="text-white-50 mx-auto mt-2 mb-5">Բարի Գալուստ Ստոմատոլոգիական Կլինիկա</h2>
-            <a class="btn btn-primary js-scroll-trigger" href="#about">Բաժանորդագրվել Online</a>
+            <a class="btn btn-primary js-scroll-trigger" href="{{route("records.create")}}">Բաժանորդագրվել Online</a>
         </div>
     </div>
 </header>

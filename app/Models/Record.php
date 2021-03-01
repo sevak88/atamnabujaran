@@ -14,5 +14,6 @@ class Record extends Model
         'last_name',
         'comment',
         'date',
+        'phone',
     ];
 }
